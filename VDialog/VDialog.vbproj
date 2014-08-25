@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F9D9AFB-646E-45AE-AD10-2E42F15D0474}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LukeSw.Windows.Forms</RootNamespace>
+    <AssemblyName>VDialog</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionCompare>Text</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>VDialog.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VDialog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VDialog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Button.Designer.vb">
+      <DependentUpon>Button.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChevronButton.Designer.vb">
+      <DependentUpon>ChevronButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChevronButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommandLink.Designer.vb">
+      <DependentUpon>CommandLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommandLink.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.de.Designer.vb">
+      <DependentUpon>Resources.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VDialogSound.vb" />
+    <Compile Include="VDialogIcon.vb" />
+    <Compile Include="VDialogLockSystemParameters.vb" />
+    <Compile Include="Extensions.vb" />
+    <Compile Include="Label.Designer.vb">
+      <DependentUpon>Label.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Label.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.pl.Designer.vb">
+      <DependentUpon>Resources.pl.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Native.vb" />
+    <Compile Include="VDialog.vb" />
+    <Compile Include="VDialogButton.vb" />
+    <Compile Include="VDialogDefaultButton.vb" />
+    <Compile Include="VDialogResult.vb" />
+    <Compile Include="VDialogForm.Designer.vb">
+      <DependentUpon>VDialogForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="VDialog.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackgroundForm.resx">
+      <DependentUpon>BackgroundForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Button.resx">
+      <DependentUpon>Button.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChevronButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChevronButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandLink.resx">
+      <DependentUpon>CommandLink.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Label.resx">
+      <DependentUpon>Label.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.de.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.de.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.pl.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.pl.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VDialogForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VDialogForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecuritySuccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Security.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallInformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecuritySucess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMoreHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMorePressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDisabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ArrowHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

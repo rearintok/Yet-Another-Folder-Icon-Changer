@@ -1,0 +1,27 @@
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\FolderIconMarker.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\bin\Debug\FolderIconMarker.exe
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\bin\Debug\FolderIconMarker.pdb
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\bin\Debug\FolderIconMarker.xml
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\FolderIconMarker.exe
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\FolderIconMarker.xml
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\FolderIconMarker.pdb
+D:\MyProgramming\VB.NET Project\My Projects\FolderIconMarker\obj\x86\Debug\FolderIconMarker.frmMain.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\FolderIconMarker.exe
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\FolderIconMarker.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\FolderIconMarker.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\FolderIconMarker.exe
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\FolderIconMarker.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\FolderIconMarker.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\FolderIconMarker.frmMain.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\FolderIconMarker.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\bin\Debug\pl\VDialog.resources.dll

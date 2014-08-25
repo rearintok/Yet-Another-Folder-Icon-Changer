@@ -1,0 +1,62 @@
+
+
+
+[.ShellClassInfo]
+IconFile=%FOLDER_MARKER_DIR%\icl\Colors.icl
+IconIndex=0
+
+
+'Folder Icon Marker' Version History
+
+Legend:
+  [+] - Added, [-] - Fixed, [*] - Improved/Changed, [i] - Information
+
+
+Version 1.0 (Released on March 26th, 2010)
+    [i] The first public beta version
+    [i] Written on VB.Net 2010
+
+
+
+ ' Dim dirs As DirectoryInfo()
+                ' Dim dirInfo As New DirectoryInfo(targetDirectory)
+                ' dirs = dirInfo.GetDirectories()
+
+                '  For Each dir As DirectoryInfo In dirs
+
+                'Dim dirpath As String = Dir.FullName
+
+                ' If File.Exists(Path.Combine(dirpath, "folder.ico")) Then
+                'File.Delete(Path.Combine(dirpath, "folder.ico"))
+                ' End If
+
+                'If _MMultiIcon.SelectedIndex <> -1 Then
+                '_MMultiIcon.Save(Path.Combine(dirpath, "folder.ico"), MultiIconFormat.ICO)
+                'End If
+
+                'CreateDesktopINI(dirpath)
+
+                ' SHChangeNotify(HChangeNotifyEventID.SHCNE_ASSOCCHANGED, HChangeNotifyFlags.SHCNF_IDLIST, IntPtr.Zero, IntPtr.Zero)
+
+                ' Next
+
+
+ ''' <summary>
+    ''' The desktop.ini file is a text file that allows you to specify how a file system folder is viewed. 
+    ''' The [.ShellClassInfo] section, allows you to customize the folder's view by assigning values to several entries.
+    ''' </summary>
+    ''' <remarks>
+    ''' The default for iconindex is 0.<br></br>
+    ''' The default for intotip is "".<br></br>
+    ''' The default for nosharing is false.<br></br>
+    ''' The default for confirmdelete is false.<br></br>
+    ''' </remarks>
+    ''' <param name="target">The fully qualified path to the file.</param>
+    ''' <param name="iconfile">If you want to specify a custom icon for the folder, set this entry to the icon's file name. 
+    ''' The .ico file extension is preferred, but it is also possible to specify .bmp files, or .exe and .dll files that contain icons. 
+    ''' If you use a relative path, the icon is available to people who view the folder over the network. You must also set the IconIndex entry. </param>
+    ''' <param name="iconindex">The index of the icon to use.</param>
+    ''' <param name="confirmdelete">Set this entry to 0 to avoid a "You Are Deleting a System Folder" warning when deleting or moving the folder.</param>
+    ''' <param name="nosharing">Not supported under Windows Vista or later. Set this entry to 1 to prevent the folder from being shared.</param>
+    ''' <param name="infotip">Set this entry to an informational text string. It is displayed as an infotip when the cursor hovers over the folder.
+    ''' If the user clicks the folder, the information text is displayed in the folder's information block, below the standard information.</param>

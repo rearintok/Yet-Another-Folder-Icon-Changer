@@ -1,0 +1,108 @@
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.ChevronButton.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.CommandLink.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.VDialogForm.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.de.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.pl.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Button.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.BackgroundForm.resources
+D:\MyProgramming\VB.NET Project\Codes\VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Label.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.BackgroundForm.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Button.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.ChevronButton.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.CommandLink.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Label.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.VDialogForm.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.de.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.pl.resources
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\Codes\_VDialog\src\VDialog\obj\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.BackgroundForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.Button.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.ChevronButton.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.CommandLink.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.Label.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.VDialogForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.de.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.pl.resources
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\OEM Editor\VDialog\obj\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.BackgroundForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.Button.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.ChevronButton.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.CommandLink.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.Label.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.VDialogForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.de.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.pl.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Marker\VDialog\obj\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.BackgroundForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.Button.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.ChevronButton.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.CommandLink.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.Label.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.VDialogForm.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.de.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\LukeSw.Windows.Forms.Resources.pl.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\VDialog.vbproj.GenerateResource.Cache
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\VDialog\obj\Debug\VDialog.pdb

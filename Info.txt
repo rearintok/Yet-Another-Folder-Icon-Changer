@@ -1,0 +1,92 @@
+Folder Icon Marker is a handy tool that enables you to quickly change folder icons to indicate a priority level or project status (high, low, done, half-done, planned, etc.) or you can use it to mark a folder with a special icon or color of your choice. Simply choose any folder and select the icon or color to be used from the newly added menu option. Folder Icon Marker supports single and multiple folder selections, and includes an option to restore the original icon(s).
+
+"Windows 7"						
+				Folder Icon		File Icon
+
+Extra Large Icons	- 	256x256 RGB/A		256x256 RGB/A			
+Large Icons 		-	256x256 RGB/A		256x256 RGB/A		
+Medium Icons 		-	48x48 	RGB/A		256x256 RGB/A		 
+Small Icons 		-	16x16 	RGB/A		16x16 	RGB/A		
+List 			-	16x16 	RGB/A		16x16 	RGB/A		
+Details			- 	16x16 	RGB/A		16x16 	RGB/A		
+Tiles 			- 	48x48 	RGB/A 		48x48 	RGB/A		
+Content 		-	32x32 	RGB/A		32x32 	RGB/A		
+
+"Windows Vista"
+
+Extra Large Icons 	- 	256x256 RGB/A		256x256 RGB/A
+Large Icons 		-	256x256 RGB/A		256x256 RGB/A
+Medium Icons 		-	48x48 	RGB/A		48x48 	RGB/A
+Small Icons 		-	16x16 	RGB/A		16x16 	RGB/A
+List 			-	16x16 	RGB/A		16x16 	RGB/A
+Details 		- 	16x16 	RGB/A		16x16 	RGB/A
+Tiles 			- 	48x48 	RGB/A		48x48 	RGB/A
+Content 		-	not applicable
+
+
+"Windows XP"
+	
+Icons 			-	32x32 	RGB/A
+List 			-	16x16 	RGB/A
+Details 		- 	16x16 	RGB/A
+Tiles 			- 	48x48 	RGB/A
+Thumbnails		-	48x48 	RGB/A
+
+Desktop.ini Format
+
+[For Windows Vista and 7]
+[.ShellClassInfo]
+IconResource=C:\Users\Napster\Desktop\UltraSurf\software.ico,0
+
+[For XP]
+[.ShellClassInfo]
+IconFile=FIA3.ico
+IconIndex=0
+
+Main menu of the Folder Marker consists of the following items:
+
+******************************************
+* ACTION
+******************************************
+
+Apply Icon Change					Changes icon for current folder(s).(Acting the same way if you would press "Apply" button).
+Restore Default Icon for Chosen Folder(s)		After application of this command on an icon of a folder, a standard icon results. 
+Use selected icon as the system's default folder icon	Applies the chosen icon as a standard icon in the system. (Replaces a standard icon in the system).
+Refresh System Icons					Rebuilds the Windows icon cache. Choose this menu point after applying changes to see them or in case of wrong 									displaying icons by Windows
+Restore system's default folder icon			Restores the standard yellow icon in the system as the default one.
+Customize "Mark Folder" menu				Allow you to customize the Explorer's context menu. 
+Rollback All Changes					Discards all changes which were made by Folder Marker
+Exit							Closes the program
+
+******************************************
+* FOLDER
+******************************************
+	
+Single Folder		Allows you to change the icon for one folder only
+Multiple Folders	Allows you to change the icon for several folders
+
+******************************************
+* HELP
+******************************************
+
+Contents	Opens help file
+About		Shows you information about the program
+
+
+Folder Marker allows you to choose 2 options:
+
+#Make customized folder distributable
+
+If the given option is chosen, the icon will be copied in the chosen directory. If you change an icon of a folder with the included option "Make customized folder distributable", you can move a folder onto another computer or save it to disk. Thus, the icon of a folder remains changed. 
+
+If you change an icon of a folder without the checked option, the changed icon will be applicable only on your computer. On the other computer, the folder will have a standard (yellow) icon.
+
+The inclusion of an option "Make customized folder distributable" also will leave a non-standard icon of a folder after reinstallation of the system.
+
+#Apply selected icon to all subfolders 
+
+The given option allows you to change an icon for all enclosed folders of the chosen directory.
+
+Example:
+
+After choosing folder(s), icon and setting "Apply selected icon for all subfolders" option, press "Apply". As a result, all subfolder directories will be changed.

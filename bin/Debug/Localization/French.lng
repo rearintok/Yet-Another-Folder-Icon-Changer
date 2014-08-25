@@ -1,0 +1,69 @@
+﻿[Info]
+LangName=French (Français)
+
+[Translations]
+File=ficher
+Action=action
+Tools=outils
+Help=aider
+Exit=Quitter
+Browse=Feuilleter
+Browse Folder=Parcourir les dossiers
+Remove=supprimer
+Clean=propre
+Remove Selected Folder=Supprimer le dossier sélectionné
+Apply Icon Changes=Appliquer les modifications Icône
+Apply=appliquer
+Restore Default Icon for Chosen Folder(s)=Restore Default Icône de Chosen Dossier (s)
+Rollback All Changes=Annule toutes les modifications
+Refresh System Icons=Actualiser les icônes système
+Change System's Default Folder Icon=Changer le Icône de dossier par défaut de système
+Make Customized Folder Distributable=Assurez-Customized dossier distribuable
+Apply Selected Icon for all Subfolders=Appliquer icône sélectionnée pour tous les sous-dossiers
+Favorites=favoris
+Language=langue
+Preferences=préférences
+Paste From Clipboard=Coller du presse papier
+Add to Favorites=Ajouter aux favoris
+Main=principal
+Software=logiciel
+Movies=films
+Games=Jeux
+Music=musique
+Custom=coutume
+Help Contents=Contenu de l'aide
+Tip of the Day=Astuce du jour
+Homepage=Page d'accueil
+Email=email
+Download Folder Icon Packs=Télécharger le dossier de packs d'icônes
+Donate=donner
+Like Us on Facebook=Aimez-nous sur Facebook
+Follow us on Twitter=Suivez-nous sur Twitter
+About=sur
+Close=proche
+Restore System's Default Folder Icon=Restaurer l'icône par défaut du dossier de système
+New=nouveau
+Delete=effacer
+Use Selected Icon as the System Default Icon=Utilisez l'icône sélectionnée comme l'icône par défaut du système
+Browse and new folder to the list=Parcourir et nouveau dossier à la liste
+Remove selected folder on the list=Retirer le filtre sélectionné dans la liste
+Remove all folder on the list=Retirez tous les dossiers sur la liste
+Exit the program=Quittez le programme
+Changes icon for the current folder(s). Acting the way if you would press the "Apply" button.=Changements icône du dossier (s) en cours. Agissant de la sorte si vous appuyez sur le bouton "Appliquer".
+After application of this command, on a icon on a folder, a standard icon results.=Après l'application de cette commande, sur une icône sur un dossier, un des résultats de l'icône standard.
+Discard all changes which were made by the program.=Annuler toutes les modifications qui ont été apportées par le programme.
+Rebuilds the Windows Icon Cache=Reconstruit le cache de Windows Icône
+Rebuilds the=reconstruit le
+If the given option is chosen, the icon will be copied in the chosen directory=
+Si l'option proposée est choisie, l'icône sera copié dans le répertoire choisi.
+The given option allows you to change an icon for all enclosed folders of the chosen directory.=L'option proposée vous permet de modifier une icône pour tous les dossiers fermés du répertoire choisi.
+Load and Change Settings=Charger et Modifier les paramètres
+Change Program Language=Changer Langue du programme
+Opens Help File=Ouvre le fichier d'aide
+Visits Author Homepage=Visites Auteur Page d'accueil
+Email Us=Écrivez-nous
+Download Free Folder Icon and Icon Packs=Télécharger gratuitement Icône de dossier et packs d'icônes
+Donate a small amount to help defer the costs of maintaining and continued development, we do appreciate donations.=Donner une petite quantité d'aider à défrayer les coûts d'entretien et de développement continu, nous apprécions les dons.
+Shows you information about the Program.=Vous montre des informations sur le programme.
+
+[Messages]

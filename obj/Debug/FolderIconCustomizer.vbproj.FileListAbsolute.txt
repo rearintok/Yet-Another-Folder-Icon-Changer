@@ -1,0 +1,44 @@
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\FolderIconCustomizer.exe.config
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.frmAbout.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.frmMain.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\GenerateResource.read.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\GenerateResource.write.1.tlog
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\FolderIconCustomizer.exe
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\Qios.DevSuite.Components.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\Qios.DevSuite.Components.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.exe
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\obj\Debug\FolderIconCustomizer.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\FolderIconCustomizer.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\FolderIconCustomizer.xml
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\AddressBarExt.dll
+D:\MyProgramming\VB.NET Project\My Projects\Folder Icon Customizer\bin\Debug\AddressBarExt.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\VDialog.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\VDialog.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\VDialog.xml
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\de\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\pl\VDialog.resources.dll
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\FolderIconCustomizer.vbprojResolveAssemblyReference.cache
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\FolderIconCustomizer.vbproj.GenerateResource.Cache
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\yafic.exe.config
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\yafic.exe
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\yafic.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\bin\Debug\yafic.xml
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\yafic.exe
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\yafic.xml
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\yafic.pdb
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmAbout.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmLanguages.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmMain.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmPreferences.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmTest.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.Resources.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmIconProperties.resources
+D:\MyProgramming\VB.NET Project\My Projects\Yet Another Folder Icon Changer\obj\Debug\YAFIC.frmFavorites.resources

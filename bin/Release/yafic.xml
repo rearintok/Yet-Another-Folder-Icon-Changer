@@ -1,0 +1,609 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+yafic
+</name>
+</assembly>
+<members>
+<member name="M:YAFIC.IconHelper.GetIconInfo(System.Drawing.Icon)">
+	<summary>
+ Returns TAFactory.IconPack.IconInfo object that holds the information about the icon.
+ </summary>
+	<param name="icon">System.Drawing.Icon to get the information about.</param>
+	<returns>TAFactory.IconPack.IconInfo object that holds the information about the icon.</returns>
+</member><member name="M:YAFIC.IconHelper.GetIconInfo(System.String)">
+	<summary>
+ Returns TAFactory.IconPack.IconInfo object that holds the information about the icon.
+ </summary>
+	<returns>TAFactory.IconPack.IconInfo object that holds the information about the icon.</returns>
+</member><member name="M:YAFIC.IconHelper.ExtractIcon(System.String,System.Int32)">
+	<summary>
+ Extracts an icon from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<returns>A System.Drawing.Icon extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:YAFIC.IconHelper.ExtractAllIcons(System.String)">
+	<summary>
+ Extracts all the icons from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<returns>
+ A list of System.Drawing.Icon found in the file.
+ If the file was an icon file, it will return a list containing a single icon.
+ </returns>
+</member><member name="M:YAFIC.IconHelper.SplitGroupIcon(System.Drawing.Icon)">
+	<summary>
+ Splits the group icon into a list of icons (the single icon file can contain a set of icons).
+ </summary>
+	<param name="icon">The System.Drawing.Icon need to be splitted.</param>
+	<returns>List of System.Drawing.Icon.</returns>
+</member><member name="M:YAFIC.IconHelper.GetBestFitIcon(System.Drawing.Icon)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:YAFIC.IconHelper.GetBestFitIcon(System.Drawing.Icon,System.Drawing.Size)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:YAFIC.IconHelper.GetBestFitIcon(System.Drawing.Icon,System.Drawing.Size,System.Boolean)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:YAFIC.IconHelper.ExtractBestFitIcon(System.String,System.Int32)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:YAFIC.IconHelper.ExtractBestFitIcon(System.String,System.Int32,System.Drawing.Size)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:YAFIC.IconHelper.ExtractBestFitIcon(System.String,System.Int32,System.Drawing.Size,System.Boolean)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:YAFIC.IconHelper.GetAssociatedIcon(System.String,YAFIC.IconFlags)">
+	<summary>
+ Gets icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<param name="flags">Specifies which icon to be retrieved (Larg, Small, Selected, Link Overlay and Shell Size).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:YAFIC.IconHelper.GetAssociatedLargeIcon(System.String)">
+	<summary>
+ Gets large icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:YAFIC.IconHelper.GetAssociatedSmallIcon(System.String)">
+	<summary>
+ Gets small icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:YAFIC.IconHelper.Merge(System.Drawing.Icon[])">
+	<summary>
+ Merges a list of icons into one single icon.
+ </summary>
+	<param name="icons">The icons to be merged.</param>
+	<returns>System.Drawing.Icon that contains all the images of the givin icons.</returns>
+</member><member name="T:YAFIC.IconHelper">
+	<summary>
+ Contains helper function to help dealing with System.Drawing.Icon.
+ </summary>
+</member><member name="F:YAFIC.IconListView.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:YAFIC.IconListView.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:YAFIC.IconListView.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="P:YAFIC.IconListView.IsVistaOrLater">
+	<value>
+ Returns true on Windows Vista or newer operating systems; otherwise, false.
+ </value>
+</member><member name="P:YAFIC.IconInfo.SourceIcon">
+	<summary>
+ Gets the source System.Drawing.Icon.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.FileName">
+	<summary>
+ Gets the icon's file name. 
+ </summary>
+</member><member name="P:YAFIC.IconInfo.Images">
+	<summary>
+ Gets a list System.Drawing.Icon that presents the icon contained images.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.IsMultiIcon">
+	<summary>
+ Get whether the icon contain more than one image or not.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.BestFitIconIndex">
+	<summary>
+ Gets icon index that best fits to screen resolution.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.Width">
+	<summary>
+ Gets icon width.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.Height">
+	<summary>
+ Gets icon height.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.ColorCount">
+	<summary>
+ Gets number of colors in icon (0 if &gt;=8bpp).
+ </summary>
+</member><member name="P:YAFIC.IconInfo.Planes">
+	<summary>
+ Gets icon color planes.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.BitCount">
+	<summary>
+ Gets icon bits per pixel (0 if less than 8bpp).
+ </summary>
+</member><member name="P:YAFIC.IconInfo.ColorDepth">
+	<summary>
+ Gets icon bits per pixel.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.IconDir">
+	<summary>
+ Gets the TAFactory.IconPack.IconDir of the icon.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.GroupIconDir">
+	<summary>
+ Gets the TAFactory.IconPack.GroupIconDir of the icon.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.IconDirEntries">
+	<summary>
+ Gets a list of TAFactory.IconPack.IconDirEntry of the icon.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.GroupIconDirEntries">
+	<summary>
+ Gets a list of TAFactory.IconPack.GroupIconDirEntry of the icon.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.RawData">
+	<summary>
+ Gets a list of raw data for each icon image.
+ </summary>
+</member><member name="P:YAFIC.IconInfo.ResourceRawData">
+	<summary>
+ Gets the icon raw data as a resource data.
+ </summary>
+</member><member name="M:YAFIC.IconInfo.#ctor(System.Drawing.Icon)">
+	<summary>
+ Intializes a new instance of TAFactory.IconPack.IconInfo which contains the information about the givin icon.
+ </summary>
+	<param name="icon">A System.Drawing.Icon object to retrieve the information about.</param>
+</member><member name="M:YAFIC.IconInfo.#ctor(System.String)">
+	<summary>
+ Intializes a new instance of TAFactory.IconPack.IconInfo which contains the information about the icon in the givin file.
+ </summary>
+	<param name="fileName__1">A fully qualified name of the icon file, it can contain environment variables.</param>
+</member><member name="M:YAFIC.IconInfo.GetBestFitIconIndex">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<returns>The icon index.</returns>
+</member><member name="M:YAFIC.IconInfo.GetBestFitIconIndex(System.Drawing.Size)">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>The icon index.</returns>
+</member><member name="M:YAFIC.IconInfo.GetBestFitIconIndex(System.Drawing.Size,System.Boolean)">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>The icon index.</returns>
+</member><member name="M:YAFIC.IconInfo.LoadIconInfo(System.Drawing.Icon)">
+	<summary>
+ Loads the icon information from the givin icon into class members.
+ </summary>
+	<param name="icon">A System.Drawing.Icon object to retrieve the information about.</param>
+</member><member name="M:YAFIC.IconInfo.GetIconResourceData">
+	<summary>
+ Returns the icon's raw data as a resource data.
+ </summary>
+	<returns>The icon's raw as a resource data.</returns>
+</member><member name="T:YAFIC.IconInfo">
+	<summary>
+ Provides information about a givin icon.
+ This class cannot be inherited.
+ </summary>
+</member><member name="P:YAFIC.IconExtractor.FileName">
+	<summary>
+ A fully quallified name of the executable module.
+ </summary>
+</member><member name="P:YAFIC.IconExtractor.ModuleHandle">
+	<summary>
+ Gets the module handle.
+ </summary>
+</member><member name="P:YAFIC.IconExtractor.IconNamesList">
+	<summary>
+ Gets a list of icons resource names RT_GROUP_ICON;
+ </summary>
+</member><member name="P:YAFIC.IconExtractor.IconCount">
+	<summary>
+ Gets number of RT_GROUP_ICON found in the executable module.
+ </summary>
+</member><member name="P:YAFIC.IconExtractor.IconCache">
+	<summary>
+ Gets or sets the RT_GROUP_ICON cache.
+ </summary>
+</member><member name="M:YAFIC.IconExtractor.#ctor(System.String)">
+	<summary>
+ Initializes a new IconExtractor and loads the executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:YAFIC.IconExtractor.Finalize">
+	<summary>
+ Destructs the IconExtractor object.
+ </summary>
+</member><member name="M:YAFIC.IconExtractor.GetIconAt(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_ICON at the givin index.
+ </summary>
+	<param name="index">The index of the RT_GROUP_ICON in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:YAFIC.IconExtractor.LoadLibrary(System.String)">
+	<summary>
+ This function maps a specified executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:YAFIC.IconExtractor.EnumResourcesCallBack(System.IntPtr,YAFIC.Microsoft.API.ResourceTypes,System.IntPtr,System.IntPtr)">
+	<summary>
+ The callback function that is being called for each resource (RT_GROUP_ICON, RT_ICON) in the executable module.
+ The function stores the resource name of type RT_GROUP_ICON into the GroupIconsList and 
+ stores the resource name of type RT_ICON into the IconsList.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="lpszType">Specifies the type of the resource being enumurated (RT_GROUP_ICON, RT_ICON).</param>
+	<param name="lpszName">Specifies the name of the resource being enumurated. For more ifnormation, see the Remarks section.</param>
+	<param name="lParam">Specifies the application defined parameter passed to the EnumResourceNames function.</param>
+	<returns>This callback function return true to continue enumuration.</returns>
+	<remarks>
+ If the high bit of lpszName is not set (=0), lpszName specifies the integer identifier of the givin resource.
+ Otherwise, it is a pointer to a null terminated string.
+ If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+ #define IS_INTRESOURCE(_r) ((((ULONG_PTR)(_r)) &gt;&gt; 16) == 0)
+ </remarks>
+</member><member name="M:YAFIC.IconExtractor.GetIconFromLib(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_ICON at the givin index from the executable module.
+ </summary>
+	<param name="index">The index of the RT_GROUP_ICON in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:YAFIC.IconExtractor.GetResourceData(System.IntPtr,YAFIC.ResourceName,YAFIC.Microsoft.API.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceName">The name of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:YAFIC.IconExtractor.GetResourceData(System.IntPtr,System.Int32,YAFIC.Microsoft.API.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceid">The identifier of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:YAFIC.IconExtractor.Dispose">
+	<summary>
+ Releases the resources of that object.
+ </summary>
+</member><member name="T:YAFIC.IconExtractor">
+	<summary>
+ Get icon resources (RT_GROUP_ICON and RT_ICON) from an executable module (either a .dll or an .exe file).
+ </summary>
+</member><member name="P:YAFIC.ResourceName.Id">
+	<summary>
+ Gets the resource identifier, returns null if the resource is not an integer resource.
+ </summary>
+</member><member name="P:YAFIC.ResourceName.Name">
+	<summary>
+ Gets the resource name, returns null if the resource is not a string resource.
+ </summary>
+</member><member name="P:YAFIC.ResourceName.Value">
+	<summary>
+ Gets a pointer to resource name that can be used in FindResource function.
+ </summary>
+</member><member name="P:YAFIC.ResourceName.IsIntResource">
+	<summary>
+ Gets whether the resource is an integer resource.
+ </summary>
+</member><member name="M:YAFIC.ResourceName.#ctor(System.IntPtr)">
+	<summary>
+ Initializes a new TAFactory.IconPack.ResourceName object.
+ </summary>
+	<remarks>
+ If the high bit of lpszName is not set (=0), lpszName specifies the integer identifier of the givin resource.
+ Otherwise, it is a pointer to a null terminated string.
+ If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+ #define IS_INTRESOURCE(_r) ((((ULONG_PTR)(_r)) &gt;&gt; 16) == 0).
+ </remarks>
+</member><member name="M:YAFIC.ResourceName.Finalize">
+	<summary>
+ Destructs the ResourceName object.
+ </summary>
+</member><member name="M:YAFIC.ResourceName.ToString">
+	<summary>
+ Returns a System.String that represents the current TAFactory.IconPack.ResourceName.
+ </summary>
+	<returns>Returns a System.String that represents the current TAFactory.IconPack.ResourceName.</returns>
+</member><member name="M:YAFIC.ResourceName.Free">
+	<summary>
+ Releases the pointer to the resource name.
+ </summary>
+</member><member name="M:YAFIC.ResourceName.Dispose">
+	<summary>
+ Release the pointer to the resource name.
+ </summary>
+</member><member name="T:YAFIC.ResourceName">
+	<summary>
+ Represents a resource name (either integer resource or string resource).
+ </summary>
+</member><member name="M:YAFIC.StatusMessage.GetStatusMessage(System.ComponentModel.Component)">
+	<summary>
+ Returns current controls tool-tip
+ </summary>
+	<param name="senderComponent"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YAFIC.IconDir.ToGroupIconDir">
+	<summary>
+ Converts the current TAFactory.IconPack.IconDir into TAFactory.IconPack.GroupIconDir.
+ </summary>
+	<returns>TAFactory.IconPack.GroupIconDir</returns>
+</member><member name="T:YAFIC.IconDir">
+	<summary>
+ Presents an Icon Directory.
+ </summary>
+</member><member name="M:YAFIC.IconDirEntry.ToGroupIconDirEntry(System.Int32)">
+	<summary>
+ Converts the current TAFactory.IconPack.IconDirEntry into TAFactory.IconPack.GroupIconDirEntry.
+ </summary>
+	<param name="id">The resource identifier.</param>
+	<returns>TAFactory.IconPack.GroupIconDirEntry</returns>
+</member><member name="T:YAFIC.IconDirEntry">
+	<summary>
+ Presents an Icon Directory Entry.
+ </summary>
+</member><member name="M:YAFIC.GroupIconDir.ToIconDir">
+	<summary>
+ Converts the current TAFactory.IconPack.GroupIconDir into TAFactory.IconPack.IconDir.
+ </summary>
+	<returns>TAFactory.IconPack.IconDir</returns>
+</member><member name="T:YAFIC.GroupIconDir">
+	<summary>
+ Presents a Group Icon Directory.
+ </summary>
+</member><member name="M:YAFIC.GroupIconDirEntry.ToIconDirEntry(System.Int32)">
+	<summary>
+ Converts the current TAFactory.IconPack.GroupIconDirEntry into TAFactory.IconPack.IconDirEntry.
+ </summary>
+	<returns>TAFactory.IconPack.IconDirEntry</returns>
+</member><member name="T:YAFIC.GroupIconDirEntry">
+	<summary>
+ Presents a Group Icon Directory Entry.
+ </summary>
+</member><member name="P:YAFIC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:YAFIC.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:YAFIC.My.Resources.Resources.Cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:YAFIC.My.Resources.Resources.FolderHorizontal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:YAFIC.My.Resources.Resources.OK">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:YAFIC.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:YAFIC.cListView.IsVistaOrLater">
+	<value>
+ Returns true on Windows Vista or newer operating systems; otherwise, false.
+ </value>
+</member><member name="F:YAFIC.ListViewColumnSorter.ColumnToSort">
+	<summary>
+ Specifies the column to be sorted
+ </summary>
+</member><member name="F:YAFIC.ListViewColumnSorter.OrderOfSort">
+	<summary>
+ Specifies the order in which to sort (i.e. 'Ascending').
+ </summary>
+</member><member name="F:YAFIC.ListViewColumnSorter.ObjectCompare">
+	<summary>
+ Case insensitive comparer object
+ </summary>
+</member><member name="M:YAFIC.ListViewColumnSorter.#ctor">
+	<summary>
+ Class constructor.  Initializes various elements
+ </summary>
+</member><member name="M:YAFIC.ListViewColumnSorter.Compare(System.Object,System.Object)">
+	<summary>
+ This method is inherited from the IComparer interface.  It compares the two objects passed using a case insensitive comparison.
+ </summary>
+	<param name="x">First object to be compared</param>
+	<param name="y">Second object to be compared</param>
+	<returns>The result of the comparison. "0" if equal, negative if 'x' is less than 'y' and positive if 'x' is greater than 'y'</returns>
+</member><member name="P:YAFIC.ListViewColumnSorter.SortColumn">
+	<summary>
+ Gets or sets the number of the column to which to apply the sorting operation (Defaults to '0').
+ </summary>
+</member><member name="P:YAFIC.ListViewColumnSorter.Order">
+	<summary>
+ Gets or sets the order of sorting to apply (for example, 'Ascending' or 'Descending').
+ </summary>
+</member><member name="T:YAFIC.ListViewColumnSorter">
+	<summary>
+ This class is an implementation of the 'IComparer' interface.
+ </summary>
+</member><member name="M:YAFIC.clsINI.ReadString(System.String,System.String)">
+	<summary>
+ Read string from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.ReadString(System.String,System.String,System.String)">
+	<summary>
+ Read string from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="defaultValue">Ini Default Value</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.ReadString(System.String,System.String,System.String,System.String)">
+	<summary>
+ Read string from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="defaultValue">Ini Default Value</param>
+	<param name="iniFileName">Ini File Name</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.ReadInteger(System.String,System.String)">
+	<summary>
+ Read integer from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.ReadInteger(System.String,System.String,System.Int32)">
+	<summary>
+ Read integer from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="defaultValue">Ini Default Value</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.ReadInteger(System.String,System.String,System.Int32,System.String)">
+	<summary>
+ Read integer from INI Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="defaultValue">Ini Default Value</param>
+	<param name="iniFileName">Ini File Name</param>
+	<returns>Ini Value</returns>
+</member><member name="M:YAFIC.clsINI.SectionNames">
+	<summary>
+ Return Ini Section Names as ArrayList
+ </summary>
+	<returns>Ini Section Names</returns>
+</member><member name="M:YAFIC.clsINI.WriteString(System.String,System.String,System.String)">
+	<summary>
+ Store string data in dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="value">Ini Value</param>
+</member><member name="M:YAFIC.clsINI.WriteString(System.String,System.String,System.String,System.String)">
+	<summary>
+ Store string data in dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="value">Ini Value</param>
+	<param name="iniFileName">Ini File Name</param>
+</member><member name="M:YAFIC.clsINI.WriteInteger(System.String,System.String,System.Int32)">
+	<summary>
+ Store integer data in dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="value">Ini Value</param>
+</member><member name="M:YAFIC.clsINI.WriteInteger(System.String,System.String,System.Int32,System.String)">
+	<summary>
+ Store integer data in dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="key">Ini Key</param>
+	<param name="value">Ini Value</param>
+	<param name="iniFileName">Ini File Name</param>
+</member><member name="M:YAFIC.clsINI.DeleteSection(System.String)">
+	<summary>
+ Delete 'Section' Table from Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+</member><member name="M:YAFIC.clsINI.DeleteSection(System.String,System.String)">
+	<summary>
+ Delete 'Section' Table from Dataset
+ </summary>
+	<param name="section">Ini Section</param>
+	<param name="iniFileName">Ini File Name</param>
+</member><member name="T:YAFIC.clsINI">
+	<summary>
+  Managed IniFile Class
+ </summary>
+</member><member name="M:YAFIC.Utilities.Utility.ReadStructure``1(System.IO.Stream)">
+	<summary>
+ Reads a structure of type T from the input stream.
+ </summary>
+	<typeparam name="T">The structure type to be read.</typeparam>
+	<param name="inputStream">The input stream to read from.</param>
+	<returns>A structure of type T that was read from the stream.</returns>
+</member><member name="M:YAFIC.Utilities.Utility.WriteStructure``1(System.IO.Stream,``0)">
+	<summary>
+ Writes as structure of type T to the output stream.
+ </summary>
+	<typeparam name="T">The structure type to be written.</typeparam>
+	<param name="outputStream">The output stream to write to.</param>
+	<param name="structure">The structure to be written.</param>
+</member><member name="T:YAFIC.Utilities.Utility">
+	<summary>
+ Holds a set of utilities.
+ </summary>
+</member>
+</members>
+</doc>
